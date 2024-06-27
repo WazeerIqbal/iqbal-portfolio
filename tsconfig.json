@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+      "lib": ["dom", "es2015"],
+      "outDir": "./lib/cjs/",
+      "sourceMap": true,
+      "declaration": true,
+      "noImplicitAny": true,
+      "module": "commonjs",
+      "target": "es5",
+      "allowJs": true,
+      "moduleResolution": "node",
+      "jsx": "preserve",
+      "esModuleInterop": true
+      
+  },
+  "include": ["src/**/*.ts*", "src/components/Header.tsx"],
+  "exclude": ["node_modules", "dist", "lib"],
+  
+}
+
