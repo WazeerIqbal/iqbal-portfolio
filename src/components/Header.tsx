@@ -4,9 +4,13 @@ import computersvg from '../images/computer.svg';
 import github from '../images/github.svg';
 import whatsapp from '../images/whatsapp.svg';
 import linkedin from '../images/linkedin.svg';
+interface HeaderProps  {
+  scrollToSection:(sectionId:string)=>void;
+}
 
-const Header = ({scrollToSection}) => {
-  
+
+const Header:React.FC<HeaderProps>  = ({scrollToSection}) => {
+    
   return (
     <div>
       <header>

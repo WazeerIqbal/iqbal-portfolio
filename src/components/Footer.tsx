@@ -2,7 +2,12 @@ import React from 'react'
 import computer from '../images/computer.svg'
 import linkedin from '../images/linkedin.svg'
 import { Link } from 'react-router-dom'
-const Footer = ({scrollToSection}) => {
+
+interface FooterProps {
+    scrollToSection: (sectionId: string) => void;
+}
+
+const Footer:React.FC<FooterProps> = ({ scrollToSection }) => {
     return (
         <div>
             <footer className="p-4 bg-white sm:p-6 dark:bg-gray-800">
