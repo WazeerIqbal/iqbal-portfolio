@@ -22,7 +22,7 @@ const Projects = () => {
 
 
 
-                    <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-3 ">
+                    <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-3  ">
                         <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700 flex-col">
                             <a href="#" >
                                 <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src={spotifyclone} alt="Bonnie Avatar" />

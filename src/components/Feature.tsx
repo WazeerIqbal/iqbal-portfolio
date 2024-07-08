@@ -9,7 +9,9 @@ const Feature = () => {
                     <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white" style={{ color: '#F9760E' }}>My Software Stack</h2>
                     <p className="text-gray-500 sm:text-xl dark:text-gray-400"> Technologies I’ve been working with recently.</p>
                 </div>
-                <div className="space-y-8 md:grid  md:grid-cols-2 lg:grid-cols-6 md:gap-12 md:space-y-0   ">
+
+                {/* Tech Logos */}
+                <div className="space-y-8 grid grid-cols-2 md:grid  md:grid-cols-2 lg:grid-cols-6 md:gap-12 md:space-y-0   ">
 
                     {/* Icon start */}
                     <div>
