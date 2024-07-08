@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Add this to your CSS file */
+
+@keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .animate-slide-in-left {
+    animation: slideInLeft 1s ease-out forwards;
+  }
+
+
+  @keyframes slideInRight{
+    from {
+        opacity: 0;
+        transform: translate(100%);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0);
+    }
+  }
+  .animate-slide-in-right{
+    animation: slideInRight 1s ease-out forwards;
+  }
+  
+
+  /* .invert-svg {
+    filter: invert(1);
+  } */
+  .dark-mode svg {
+    filter: invert(1);
+  }
+  
