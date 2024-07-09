@@ -16,7 +16,7 @@ const Footer:React.FC<FooterProps> = ({ scrollToSection }) => {
 
 
                         <a href="https://github.com/WazeerIqbal" className="flex items-center">
-                            <img src={computer} className="mr-3 h-8" alt="FlowBite Logo" />
+                            <img src={computer} className="invert-svg mr-3 h-8" alt="FlowBite Logo" />
                             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Iqbal DK</span>
                         </a>
 
