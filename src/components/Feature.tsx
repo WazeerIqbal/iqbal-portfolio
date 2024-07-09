@@ -15,8 +15,8 @@ const Feature = () => {
 
                     {/* Icon start */}
                     <div>
-                        <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-                            <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <div className="  flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                            <svg  width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M22.1325 102.004L13.7063 7.5H106.294L97.8563 101.989L59.9438 112.5L22.1325 102.004Z" fill="#E44F26" />
                                 <path d="M60 104.467L90.6375 95.9737L97.845 15.2287H60V104.467Z" fill="#F1662A" />
                                 <path d="M60 50.2763H44.6625L43.605 38.4075H60V26.8163H30.9375L31.215 29.9288L34.0613 61.8675H60V50.2763ZM60 80.3775L59.9475 80.3925L47.04 76.9088L46.215 67.665H34.5787L36.2025 85.86L59.9475 92.4525L60 92.4375V80.3775Z" fill="#EBEBEB" />
@@ -30,7 +30,7 @@ const Feature = () => {
 
                     {/* Icons */}
                     <div>
-                        <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                        <div className=" flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                             <svg width="120" height="119" viewBox="0 0 120 119" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M22.1325 101.154L13.71 7.4375H106.29L97.8562 101.139L59.9437 111.562L22.1325 101.154Z" fill="#1572B6" />
                                 <path d="M60 103.597L90.6375 95.174L97.845 15.1018H60V103.597Z" fill="#33A9DC" />
@@ -71,7 +71,7 @@ const Feature = () => {
                     </div>
 
                     <div>
-                        <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                        <div className=" flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                             <svg width="88" height="87" viewBox="0 0 88 87" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clipPath="url(#clip0_14_49)">
                                     <path d="M0 75.7821C0 81.9781 5.08028 87 11.3468 87H76.6528C82.9204 87 88 81.9774 88 75.7821V11.2182C88 5.02187 82.9197 0 76.6532 0H11.3472C5.07959 0 0 5.02255 0 11.2179V75.7818V75.7821Z" fill="#563D7C" />
@@ -91,7 +91,7 @@ const Feature = () => {
                     </div>
 
                     <div>
-                        <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                        <div className=" flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                             <svg width="112" height="112" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M101.535 17.605L81.3541 7.88899C80.2144 7.33948 78.932 7.15814 77.6847 7.37011C76.4373 7.58208 75.2868 8.17686 74.3926 9.07199L8.3301 69.3C7.52857 70.0273 7.04878 71.0432 6.99627 72.1243C6.94376 73.2053 7.32283 74.2629 8.0501 75.0645C8.1376 75.159 8.2251 75.25 8.3196 75.334L13.7131 80.234C14.4179 80.8754 15.325 81.2497 16.2771 81.2919C17.2291 81.3341 18.1658 81.0416 18.9246 80.465L98.4971 20.125C99.0981 19.6689 99.8145 19.3897 100.566 19.3186C101.317 19.2476 102.073 19.3877 102.749 19.7231C103.425 20.0585 103.993 20.5758 104.391 21.217C104.789 21.8581 105 22.5975 105 23.352V23.1175C105 21.9656 104.675 20.8372 104.062 19.862C103.449 18.8868 102.573 18.1045 101.535 17.605Z" fill="#0065A9" />
                                 <path d="M101.535 94.395L81.3541 104.115C80.2141 104.662 78.9321 104.843 77.6851 104.631C76.4381 104.419 75.2876 103.825 74.3926 102.932L8.3301 42.7C7.52857 41.9727 7.04878 40.9568 6.99627 39.8758C6.94376 38.7947 7.32283 37.7371 8.0501 36.9355C8.1376 36.841 8.2251 36.75 8.3196 36.666L13.7131 31.766C14.4186 31.1219 15.3278 30.7459 16.2822 30.7037C17.2366 30.6615 18.1755 30.9557 18.9351 31.535L98.4971 91.875C99.0981 92.3311 99.8145 92.6104 100.566 92.6814C101.317 92.7524 102.073 92.6123 102.749 92.2769C103.425 91.9415 103.993 91.4242 104.391 90.783C104.789 90.1419 105 89.4025 105 88.648V88.9C104.996 90.0488 104.669 91.1733 104.057 92.1451C103.444 93.1168 102.57 93.8965 101.535 94.395Z" fill="#007ACC" />
@@ -109,7 +109,7 @@ const Feature = () => {
 
 
                     <div>
-                        <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                        <div className="invert-svg flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                                 <path fill="currentColor" d="M12 .298c-6.627 0-12 5.373-12 12 0 5.303 3.438 9.8 8.207 11.387.6.111.793-.261.793-.577 0-.285-.01-1.041-.015-2.043-3.348.725-4.042-1.613-4.042-1.613-.546-1.385-1.333-1.754-1.333-1.754-1.09-.745.083-.73.083-.73 1.205.084 1.839 1.238 1.839 1.238 1.07 1.834 2.809 1.305 3.495.998.109-.776.417-1.305.76-1.605-2.665-.307-5.467-1.332-5.467-5.93 0-1.31.465-2.383 1.235-3.223-.124-.307-.536-1.527.117-3.18 0 0 1.008-.324 3.3 1.234a11.55 11.55 0 013.016-.408c1.024.003 2.054.138 3.016.408 2.29-1.558 3.297-1.234 3.297-1.234.654 1.653.243 2.873.119 3.18.773.84 1.233 1.913 1.233 3.223 0 4.61-2.808 5.62-5.478 5.921.43.372.818 1.102.818 2.222 0 1.605-.015 2.896-.015 3.289 0 .32.191.693.799.575 4.764-1.593 8.199-6.084 8.199-11.386 0-6.627-5.373-12-12-12z" />
                             </svg>
@@ -127,7 +127,7 @@ const Feature = () => {
 
 
                     <div>
-                        <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                        <div className="invert-svg flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
 
 
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
@@ -143,7 +143,7 @@ const Feature = () => {
 
 
                     <div>
-                        <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                        <div className=" flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
 
 
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="24" height="24">
@@ -164,7 +164,7 @@ const Feature = () => {
 
 
                     <div>
-                        <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                        <div className=" flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
 
 
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="24" height="24">
@@ -190,7 +190,7 @@ const Feature = () => {
 
 
                     <div>
-                        <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                        <div className=" flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
 
 
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="24" height="24">
@@ -205,7 +205,7 @@ const Feature = () => {
 
 
                     <div>
-                        <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                        <div className="invert-svg flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
 
 
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
@@ -223,7 +223,7 @@ const Feature = () => {
                     </div>
 
                     <div>
-                        <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                        <div className="invert-svg flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
 
 
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">

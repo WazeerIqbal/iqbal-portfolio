@@ -36,10 +36,15 @@
   }
   
 
-  /* .invert-svg {
-    filter: invert(1);
-  } */
+  
+   
   .dark-mode svg {
     filter: invert(1);
   }
   
+  /* Invert the all the svgs */
+ /* Dark mode */
+:root.dark .invert-svg {
+  filter: invert(1);
+}
+
